@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tung Duong HomeStay</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Animation -->
+  <link rel="stylesheet" href="../NguyenTungDuong/style.css">
+
+  <style>
+      .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      }
+
+      .hover-zoom {
+        transition: transform 0.3s ease;
+      }
+
+      .hover-zoom:hover {
+        transform: scale(1.05);
+      }
+
+      .btn:hover {
+        animation: pulse 0.4s;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.08);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    .css {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+  </style>
+</head>
+<body class="css">
+    <header class="bg-success text-white py-3" data-aos="fade-down">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo h4">Homestay Dream</div>
+        <nav>
+          <ul class="nav">
+          <li class="nav-item">
+  <a href="http://nguyentungduong.fwh.is/?i=1" target="_blank" class="nav-link text-white">
+    Website khác
+  </a>
+</li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-white">Giới thiệu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link text-white">Thư viện</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link text-white">Liên hệ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+</header>
+
+    <section class="banner position-relative text-center" data-aos="zoom-in"><<img src="../NguyenTungDuong/z6958236623828_11437b725c26bde321080bfc7d8c633e.jpg" width="1000" height="600" alt="trang chu">
+      <div
+        class="banner-text position-absolute top-50 start-50 translate-middle text-white text-shadow"
+      >
+        <h1 class="display-4" data-aos="fade-up" data-aos-delay="200">
+          Trải nghiệm không gian homestay tuyệt vời
+        </h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="400">
+          Không gian yên tĩnh - Thiên nhiên gần gũi - Dịch vụ hoàn hảo
+        </p>
+        <a
+          href="#contact"
+          class="btn btn-warning"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          >Đặt phòng ngay</a
+        >
+      </div>
+</section>
+
+    <section
+      id="about"
+      class="about py-5 bg-white text-center"
+      data-aos="fade-up"
+    >
+      <div class="container">
+        <h2 class="mb-4">Giới thiệu Homestay Dream</h2>
+        <p>
+          Homestay Dream là nơi lý tưởng để bạn tận hưởng kỳ nghỉ trọn vẹn với
+          không gian thoải mái, phong cảnh đẹp và dịch vụ tận tâm.
+        </p>
+        <p>
+          Chúng tôi cung cấp các loại phòng đa dạng, tiện nghi hiện đại và gần
+          gũi với thiên nhiên.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="gallery"
+      class="gallery py-5 text-center bg-light"
+      data-aos="fade-up"
+    >
+      <div class="container">
+        <h2 class="mb-4">Thư viện ảnh</h2>
+        <div class="row g-3 justify-content-center">
+          <div class="col-md-4" data-aos="zoom-in"><img src="../NguyenTungDuong/z6958236567511_29db58670e52a0442f3967ec5f015897.jpg" width="331" height="220" alt="p1">
+          </div>
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200"><img src="../NguyenTungDuong/tc.jpg" width="331" height="220" alt="p1">
+          </div>
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400"><img src="../NguyenTungDuong/z6958236623869_247a26238947d93f9881536710d261c3.jpg" width="331" height="220" alt="p3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="contact py-5 bg-success text-white text-center"
+      data-aos="fade-up"
+    >
+      <div class="container">
+        <h2 class="mb-4">Liên hệ</h2>
+        <p>📍 Địa chỉ: Tân Khai, Hoàng Mai, Hà Nội</p>
+        <p>📞 Điện thoại: 0389 918 506</p>
+        <p>📧 Email: TungDuong@homestaydream.com</p>
+        <a href="tel:0389918506" class="btn btn-warning mt-3">Gọi ngay</a>
+      </div>
+    </section>
+
+    <footer class="text-center bg-dark text-white py-3" data-aos="fade-in">
+      <p>© 2025 TungDuongHomestay. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+ <script src="../NguyenTungDuong/script.js"></script>
+      AOS.init();
+   
+
+</body>
+</html>
